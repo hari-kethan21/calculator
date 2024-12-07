@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        
+    </head>
+    <body>
+        <div class="container" align="center">
+            <h1>CALCULATOR</h1>
+            <form name="forms">
+                <div class="calci">
+                    <div class="xyz">
+                        <p id="ans" class="bold"></p>
+                        <p id="mid"></p>
+                        <p id="res"></p>
+                    </div>
+                    <input type="button" value="7" onclick="ansi('7')">
+                    <input type="button" value="8" onclick="ansi('8')">
+                    <input type="button" value="9" onclick="ansi('9')">
+                    <input type="button" value="/" onclick="ansi('/')">
+                    <input type="button" class="red-btn" value="AC" onclick="ansi('ac')">
+                    <br>
+                    <input type="button" value="4" onclick="ansi('4')">
+                    <input type="button" value="5" onclick="ansi('5')">
+                    <input type="button" value="6" onclick="ansi('6')">
+                    <input type="button" value="*" onclick="ansi('*')">
+                    <input type="button" value="del" onclick="ansi('back')">
+                    <br>
+                    <input type="button" value="1" onclick="ansi('1')">
+                    <input type="button" value="2" onclick="ansi('2')">
+                    <input type="button" value="3" onclick="ansi('3')">
+                    <input type="button" value="+" onclick="ansi('+')">
+                    <input type="button" value="-" onclick="ansi('-')">
+                    <br>
+                    <input type="button" value="0" onclick="ansi('0')">
+                    <input type="button" value="00" onclick="ansi('00')">
+                    <input type="button" value="()" onclick="ansi('+/-')">
+                    <input type="button" value="." onclick="ansi('.')">
+                    <input type="button" class="blue-btn" value="=" onclick="ansi('=')">
+                    <br>
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>
